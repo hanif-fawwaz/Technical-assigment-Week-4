@@ -5,7 +5,7 @@ app = Flask(__name__)
 # Simpan data yang diterima dalam list
 data_store = []
 
-@app.route('/api/data', methods=['POST'])
+@app.route('/IR/data', methods=['POST'])
 def receive_data():
     try:
         # Mengambil data JSON dari permintaan
@@ -33,7 +33,7 @@ def receive_data():
         }
         return jsonify(response), 400
 
-@app.route('/api/data', methods=['GET'])
+@app.route('/IR/data', methods=['GET'])
 def get_data():
     try:
         # Mengirim data yang disimpan sebagai respon

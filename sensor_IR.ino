@@ -6,7 +6,7 @@
 const char* ssid = "Drone";          // Ganti dengan SSID WiFi Anda
 const char* password = "1234567890";  // Ganti dengan password WiFi Anda
 
-const char* serverName = "http://192.168.137.1:5000/api/data";
+const char* serverName = "http://192.168.137.1:5000/IR/data";
 
 
 // Pin untuk sensor inframerah
